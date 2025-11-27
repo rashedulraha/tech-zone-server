@@ -15,7 +15,7 @@ let db;
 export const connectDB = async () => {
   try {
     // await client.connect();
-    db = client.db("gadgetGalaxyDB");
+    db = client.db("techzoneDB");
   } catch (err) {
     console.error(err.message);
     process.exit(1);
